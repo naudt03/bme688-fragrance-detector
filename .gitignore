@@ -1,0 +1,19 @@
+#python
+venv/
+pycache/
+*.pyc
+
+#your runtime outputs
+logs_scans/
+*.csv
+
+#models (choose ONE approach below)
+#If you DON'T want to upload models:
+models/
+.joblib
+
+#If you DO want to upload models, then remove the 2 lines above and keep this:
+#models/*.joblib
+
+#misc
+.DS_Store
